@@ -31,4 +31,11 @@ router.post('/product',(req,res) => {
     }
     res.json({"status":"executed"});
 })
+
+router.post('/manufacture',(req,res) =>{
+    console.log(req.body)
+    if(req.body !== null){
+        
+    }
+})
 module.exports=router;
