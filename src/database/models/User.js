@@ -1,14 +1,14 @@
 const db = require("../connector");
 const sequelize =require('sequelize');
 
-module.exports = db.define(
-    "Product",
+module.exports =db.define(
+    "User",
     {
         "name":{
             type: sequelize.STRING
         },
-        "price":{
-            type:sequelize.DOUBLE
+        "password":{
+            type:sequelize.STRING
         }
     }
 );

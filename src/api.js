@@ -28,9 +28,6 @@ router.post('/product',(req,res) => {
             })
             
         })
-        
-       
-
     }
     res.json({"status":"executed"});
 })
